@@ -1,0 +1,53 @@
+.t24_clr {
+	clear: both;
+	font-size: 1px;
+	line-height: 0;
+}
+.t24_wrapper {
+	width: 226px;
+
+	font: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+	line-height: 1em;
+
+	padding-bottom: 20px;
+}
+	.t24_wrapper h1 {
+		margin-bottom: 1em;
+		font-size: 14px;
+
+	}
+	.t24_wrapper p {
+		line-height: 1.3em !important;
+		font-size: 13px !important;
+		margin-bottom: 40px !important;
+	}
+
+	.t24_wrapper .termine24-widget-cta {
+		color: #fff !important;
+		font-weight: bold;
+		text-align: left;
+
+		line-height: 1.2em;
+		margin-bottom: 50px;
+	}
+
+	.t24_wrapper .termine24-widget-cta span {
+		font-size: 60%;
+		font-weight: normal;
+	}
+
+	.t24_wrapper .termine24-widget-cta span.t24_arrow {
+		float: right;
+		display: block;
+			width: 20px;
+			height: 20px;
+
+		margin-top: 5px;
+		background: no-repeat url('../images/arrow.png') bottom right;
+	}
+	.t24_wrapper a.t24_powered {
+		float: right;
+		width: 155px;
+		height: 20px;
+		background: no-repeat url('../images/powered_by_termine24.png');
+	}
